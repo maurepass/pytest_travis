@@ -10,3 +10,9 @@ def test_tweet_singe_message():
     twitter = Twitter()
     twitter.tweet("Test message")
     assert twitter.tweets == ["Test message"]
+
+
+def test_tweet_next_message():
+    twitter = Twitter()
+    twitter.tweet('New message')
+    assert twitter.tweets == ["New message"]
