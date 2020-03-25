@@ -1,4 +1,4 @@
-from twitter import Twitter
+from twitter.twitter import Twitter
 
 
 def test_twitter_initialization():
